@@ -8,7 +8,7 @@ fetch(url).then(res=>res.json()).then(data=>displayword(data[0]))
 
 const displayword=words=>{
 const wordcontainer=document.getElementById('wordcontainer')
-console.log(words);
+// console.log(words);
 
 
 let partsofspeech= [];
